@@ -187,7 +187,7 @@ background:#777;
   display:block;
   position:absolute;
  top:0px;
-  height:400px;
+  height:390px;
   margin-left:200px;
   background:#888;
   width:150px;
@@ -211,10 +211,11 @@ background:#777;
 
 @media (max-width:900px){
   .side-menu{
-    width:31.5%;
+    width:160px;
     position:absolute;
     top: 133px;
     display:none;
+    height: 390px;
   }
 
   .side-menu ul {
@@ -223,8 +224,8 @@ background:#777;
   }
 
   .side-menu ul li{
-   padding: 10px;
-   font-size:20px;
+   padding: 7px;
+   font-size:15px;
   }
   .side-menu .fa-angle-right{
     float:right;
@@ -232,7 +233,12 @@ background:#777;
   }
 
   .side-menu ul li ul{
-    margin-left: 200px;
+
+  margin-left:0px;
+    
+  
+    left:-39px;
+    height: 200px;
   }
   #menuid,#closeid{
     display:block;
@@ -276,7 +282,7 @@ background:#777;
 
 @media (max-width:900px){
   #featured-products{
-    margin-top: 580px;
+    margin-top: 450px;
   }
 
 }
